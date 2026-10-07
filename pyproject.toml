@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "persian-doc-to-mpp"
+version = "2.0.0"
+description = "Persian PDF/DOCX to native Microsoft Project MPP converter without Microsoft Project"
+requires-python = ">=3.11"
+
+authors = [{name = "Hamid Yarali"}]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
